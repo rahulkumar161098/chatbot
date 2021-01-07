@@ -1,0 +1,468 @@
+.chatbox{
+  height: 550px;
+  width: 90%;
+  border: 1px solid black;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 3px 0px 5px 8px rgba(0,0,0,0.1);
+  /* background-color: rgba(0,0,0,0.1); */
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0));
+}
+.leftbot{
+  height: 550px;
+  width: 300px;
+  border: 1px solid black;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+}
+
+.upper{
+  height: 80px;
+  width: 928px;
+  border: 1px solid black;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-34%, -90%);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.totalUser{
+  font-size: 15px;
+  color: rgb(168, 167, 167);
+}
+.timeZone{
+  height: 30px;
+  width: 150px;
+  /* border: 1px solid red; */
+  border-radius: 15px;
+  position: absolute;
+  top: 40%;
+  left: 80%;
+  transform: translate(-70%, -10%);
+  font-size: 20px;
+  background-color: white;
+}
+.clock{
+  color: rgb(168, 167, 167);
+  margin-left:10px;
+  margin-bottom: 5px;
+}
+.writeTime{
+  height: 28px;
+  width: 110px;
+  float:  right;
+  margin-top: 5px;
+  color: rgb(168, 167, 167)
+}
+
+.lower{
+  height: 60px;
+  width: 928px;
+  border: 1px solid black;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-34%, 80%);
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  /* background-color:white; */
+}
+
+.butStyle{
+  height: 30px;
+  width: 110px;
+  background: none;
+  border: none;
+  border-radius: 30px;
+  margin: 15px;
+  background-color: lightblue;
+  font-size: 18px;
+  color: white
+}
+
+.inputStyle{
+  height: 30px;
+  width: 600px;
+  background: none;
+  border-radius: 30px;
+  margin: 15px;
+
+}
+.sendbtn{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background: none;
+  border: none;
+  background-color: lightblue;
+  color: white;
+  font-size: 18px;
+
+}
+.pinStyle{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background: none;
+  border: none;
+  margin-left: 20px;
+  font-size: 25px;
+  color: lightblue;
+}
+
+.searchStyle{
+  height: 40px;
+  width: 300px;
+  border-radius: 20px;
+  /* margin-top: 20px; */
+  background: none;
+  /* border: none; */
+}
+.event{
+  padding: 20px;
+  font-size: 25px
+}
+.dot{
+  height: 30px;
+  width: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+  background: none;
+}
+
+.headSearch{
+  border: none;
+  background: none;
+  font-size: 20px
+}
+
+.leftDot{
+  float: right;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(80%, -50%)
+}
+.secupper{
+  height: 70px;
+  width: 928px;
+  border: 1px solid black;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-34%, -70%);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.first{
+  height: 50px;
+  width: 200px;
+  /* border: 1px solid rgba(0,0,0,0.1); */
+  border-radius: 35px;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-80%, -50%);
+  /* background-color: rgba(0,0,0,0.1); */
+  box-shadow: 0.3px 0px .3px 1px rgba(0,0,0,0.1);
+}
+
+.second{
+  height: 50px;
+  width: 200px;
+  /* border: 1px solid rgba(0,0,0,0.1);; */
+  border-radius: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-65%, -50%);
+  /* background-color: rgba(0,0,0,0.1); */
+  box-shadow: 0.3px 0px .3px 1px rgba(0,0,0,0.1);
+}
+
+.third{
+  height: 50px;
+  width: 200px;
+  /* border: 1px solid rgba(0,0,0,0.1); */
+  border-radius: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(42%, -50%);
+  /* background-color: rgba(0,0,0,0.1); */
+  box-shadow: 0.3px 0px .3px 1px rgba(0,0,0,0.1);
+}
+.rightbell{
+  float: right;
+  margin-right: 30px;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(30%, -50%);
+}
+
+.notify{
+  background: none;
+  border: none;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.chain{
+  background: none;
+  border: none;
+  font-size: 30px;
+}
+.bidsNo{
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.userId{
+  height: 89px;
+  width: 298px;
+  /* border: 1px solid green; */
+}
+.image{
+  height: 50px;
+  width: 50px;
+  /* border: 1px solid red; */
+  border-radius: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(30%, 40%);
+}
+.userImageStyle{
+  height: 50px;
+  width: 50px;
+  /* border: 1px solid red; */
+  border-radius: 25px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.userdetails{
+  height: 30px;
+  width: 120px;
+  /* border: 1px solid red; */
+  padding-left: 10px;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  transform: translate(45%,-80%);
+
+}
+.username{
+  background: none;
+  border: none;
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  transform: translate(-50%,-90%);
+  font-size: 18px;
+  /* padding-left: 10px; */
+}
+
+.userIcon{
+  background: none;
+  border: none;
+  font-size: 25px;
+  color: lightblue;
+}
+.userIconDot{
+  background: none;
+  border: none;
+  font-size: 20px
+}
+
+.first1{
+  height: 20px;
+  width: 20px;
+  /* border: 1px solid green; */
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-50%,-50%);
+  /* font-size: 18px; */
+  background-color: white;
+  color: green;
+  padding-left: 5px;
+  font-weight: bold;
+}
+.second2{
+  height: 20px;
+  width: 20px;
+  /* border: 1px solid green; */
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  color: blue;
+  padding-left: 5px;
+  font-weight: bold;
+}
+.third3{
+  height: 20px;
+  width: 20px;
+  /* border: 1px solid green; */
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  color: red;
+  padding-left: 5px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.topImage{
+  height: 40px;
+  width: 40px;
+  /* border: 1px solid green; */
+  border-radius: 20px;
+  margin: 5px;
+  margin-left: 15px;
+}
+.topImageStyle{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.topper{
+  height: 40px;
+  width: 130px;
+  /* border: 1px solid green; */
+  /* float: right; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%,-50%);
+}
+.topperName{
+  margin-right: 5px;
+}
+.topperOffer{
+  margin-right: 12px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(177, 177, 179);
+}
+
+.rubberEvent{
+  height: 100px;
+  width: 280px;
+  /* border: 1px solid blue; */
+  margin: 0px auto;
+
+}
+.bestBid{
+  margin-right: 150px;
+  font-size: 10px;
+  margin-left: 10px;
+}
+.bestBid2{
+  margin-right: 180px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.bid{
+  font-size: 10px
+}
+.naturalRubberImage{
+  height: 30px;
+  width: 30px;
+  /* border: 1px solid red; */
+  border-radius: 15px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  transform: translate(-120%, 20%);
+  /* position: relative; */
+  /* background-size: 30px 30px; */
+  /* margin: 10px; */
+}
+.imageStyle{
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.userBioDetails{
+  height: 20px;
+  width: 280px;
+  /* border: 1px solid green; */
+  /* margin-top: 15px; */
+}
+.userBio{
+  font-size: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: red;
+}
+.users{
+  height: 50px;
+  width: 280px;
+  /* border: 1px solid green; */
+  /* border-radius: 0px; */
+  margin-top: 10px;
+}
+.usersImage{
+  height: 60px;
+  width: 60px;
+  /* border: 1px solid red; */
+  border-radius: 30px;
+  margin-top:20px;
+  margin-left: 10px;
+}
+.usersImageStyle{
+  height: 40px;
+  width: 40px;
+  /* border: 1px solid red; */
+  border-radius: 20px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.usersName{
+  height: 60px;
+  width: 220px;
+  /* border: 1px solid red; */
+  float: right;
+  /* padding: 20px; */
+}
+.everyUserName{
+  font-size: 20px
+}
+.everyUserBio{
+  font-size: 12px;
+  padding-bottom: 50px;
+}
+.userChatList{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  max-width: 100%;
+  max-height: 100%;
+  border: 1px solid blue;
+}
